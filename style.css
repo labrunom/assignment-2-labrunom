@@ -42,7 +42,7 @@ body {
     background-color: #fff;
     max-width: 300px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -121,7 +121,7 @@ body {
 /* Responsive post grid */
 @media (max-width: 768px) {
     .posts-container {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 }
