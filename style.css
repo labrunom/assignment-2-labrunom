@@ -5,6 +5,8 @@
  * name: Maximillian LaBruno
  * email: labrunom@oregonstate.edu
  */
+
+/* Font */
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -22,4 +24,33 @@ body {
 
 .post-title:hover {
     text-decoration: underline;
+}
+
+/* Sidebar styling */
+.sidebar {
+    padding: 20px;
+}
+
+.filter-group {
+    margin-bottom: 15px;
+}
+
+.filter-group label,
+.filter-group input {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Update button */
+.update-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.update-button:hover {
+    background-color: #0056b3;
 }
