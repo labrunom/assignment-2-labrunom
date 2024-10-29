@@ -32,7 +32,7 @@ body {
     flex-wrap: wrap;
     gap: 15px; /* Consistent spacing */
     justify-content: center;
-    flex-direction: row
+    flex-direction: row;
 }
 
 /* Individual post styling */
