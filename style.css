@@ -2,6 +2,24 @@
  * You should write your CSS in this file.  Don't forget to add your name and
  * @oregonstate.edu email address below.
  *
- * name:
- * email:
+ * name: Maximillian LaBruno
+ * email: labrunom@oregonstate.edu
  */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.site-title {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700; /* Adjust as per mocks */
+    text-align: center;
+}
+
+.post-title {
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.post-title:hover {
+    text-decoration: underline;
+}
