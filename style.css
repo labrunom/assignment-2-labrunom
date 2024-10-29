@@ -28,11 +28,6 @@ body {
 
 /* Post grid */
 .posts-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px; /* Consistent spacing */
-    justify-content: center;
-    flex-direction: row;
 }
 
 /* Individual post styling */
