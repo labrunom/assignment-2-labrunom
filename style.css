@@ -42,7 +42,7 @@ body {
     background-color: #fff;
     max-width: 300px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
 
